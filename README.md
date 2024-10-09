@@ -22,12 +22,8 @@ Evaluated models using metrics such as AUC, Accuracy, Precision, Recall, and F1 
 Created confusion matrices to visualize model performance.
 Results
 Both models performed well, with Linear SVM slightly outperforming Logistic Regression:
-Metric	Logistic Regression	Linear SVM
-Accuracy	90.98%	83.01%
-AUC	91.59%	92.07%
-Precision	90.08%	82.58%
-Recall	99.78%	99.99%
-F1 Score	89.91%	77.23%
+Logistic Regression achieved an AUC of 91.59% and a Recall of 99.78%.
+Linear SVM achieved an AUC of 92.07% and a Recall of 99.99%.
 Conclusion
 The Linear SVM model showed slightly better performance in terms of AUC and Recall, making it marginally preferable for this flight delay prediction task. However, both models demonstrated strong predictive capabilities.
 Technologies Used
