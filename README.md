@@ -12,6 +12,12 @@ The project consists of three main components:
 - Model evaluation using various metrics (AUC, Accuracy, Precision, Recall, F1 Score)
 # Dataset
 The dataset, named "connected_flights_2018", was obtained from Kaggle. It contains 61 columns and is approximately 1.8 GB in size, making it suitable for big data analysis.
+# Usage
+To run the analysis and models on Google Cloud Platform:
+- Set up a Google Cloud Dataproc cluster with Apache Spark
+- Upload the Python scripts and data to Google Cloud Storage
+- Submit the Spark jobs
+- For the EDA notebook, use Google Cloud Dataproc's Jupyter interface or Google Colab
 # Models
 Both models use a pipeline that includes:
 - String indexing and one-hot encoding for categorical variables
